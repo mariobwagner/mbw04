@@ -7,6 +7,7 @@ if (!isset($_SESSION['s_formAttempt'])) {
 	$user->logout();
 } 
 
+/ pequena modificacao
 $ua=getBrowser();
 $browser=$ua['name'];
 ?>
